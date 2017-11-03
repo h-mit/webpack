@@ -42,8 +42,7 @@ module.exports = {
     },
     "sass": {
       "type": "confirm",
-      "message": "Use sass?",
-      "default": false
+      "message": "Use sass?"
     },
     "sassVar": {
       "when": "sass",
