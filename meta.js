@@ -40,6 +40,11 @@ module.exports = {
         }
       ]
     },
+    "sass": {
+      "type": "confirm",
+      "message": "Use sass?",
+      "default": false
+    },
     "router": {
       "type": "confirm",
       "message": "Install vue-router?"
