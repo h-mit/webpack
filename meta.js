@@ -45,6 +45,11 @@ module.exports = {
       "message": "Use sass?",
       "default": false
     },
+    "pug": {
+      "type": "confirm",
+      "message": "Use pug?",
+      "default": false
+    },
     "router": {
       "type": "confirm",
       "message": "Install vue-router?"
