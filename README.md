@@ -4,6 +4,20 @@
 
 > This template is Vue 2.0 compatible. For Vue 1.x use this command: `vue init webpack#1.0 my-project`
 
+vuejs-templates/webpack に以下を追加
+
+- sassオプションを追加
+  - sassの変数ファイルオプションを追加
+- pugオプションを追加
+- ユニットテストツールとして vue-test-utils を追加
+- ESLint のルール変更
+  - `.eslintrc.js`
+    - `space-before-function-paren` ルールを無効化
+  - `test/unit/.eslintrc.js`
+    - ファイルタイプを `js` に変更
+    - `no-unused-expressions` ルールを無効化
+- ESLintが無効のときに `test/unit/.eslintrc` が生成されるのを修正
+
 ## Documentation
 
 - [For this template](http://vuejs-templates.github.io/webpack): common questions specific to this template are answered and each part is described in greater detail
