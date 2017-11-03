@@ -45,6 +45,12 @@ module.exports = {
       "message": "Use sass?",
       "default": false
     },
+    "sassVar": {
+      "when": "sass",
+      "type": "confirm",
+      "message": "Use _variables.scss?",
+      "default": false
+    },
     "pug": {
       "type": "confirm",
       "message": "Use pug?",
@@ -97,7 +103,8 @@ module.exports = {
     "test/unit/**/*": "unit",
     "build/webpack.test.conf.js": "unit",
     "test/e2e/**/*": "e2e",
-    "src/router/**/*": "router"
+    "src/router/**/*": "router",
+    "src/style/**/*": "sassVar"
   },
   "completeMessage": "To get started:\n\n  {{^inPlace}}cd {{destDirName}}\n  {{/inPlace}}npm install\n  npm run dev\n\nDocumentation can be found at https://vuejs-templates.github.io/webpack"
 };
